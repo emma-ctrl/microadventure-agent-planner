@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Recommendations - Scotland Trip Planner</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Your Scotland Trip Recommendations</h1>
+        <p>Based on your preferences</p>
+    </header>
+    
+    <main>
+        <section class="recommendations">
+            <!-- Recommendation results will be displayed here -->
+        </section>
+        
+        <a href="/" class="button">Plan Another Trip</a>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Scotland Trip Planner</p>
+    </footer>
+    
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
